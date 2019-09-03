@@ -2,11 +2,12 @@ import urllib.request
 
 
 
-""" this function will  take a file url, and optional filename  as an input parameter and
- downloded in with respective file name """
 
 
 def download_txt_file(url,file_name="downlod.txt"):
+ """ this function will  take a file url, and optional filename  as an input parameter and
+ downloded in with respective file name """
+
     f1 = open(file_name, "w")
 
     
